@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 976.75 192.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #23ace1;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #284596;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        font-family: Brinnan-Black, Brinnan;
+        font-size: 133.83px;
+        font-weight: 800;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-6" transform="translate(216.65 141.46)"><tspan class="cls-5" x="0" y="0">ele</tspan><tspan class="cls-3" x="196.86" y="0">c</tspan><tspan class="cls-5" x="269" y="0">t</tspan><tspan class="cls-4" x="336.31" y="0">r</tspan><tspan class="cls-7" x="397.61" y="0">o</tspan><tspan class="cls-8" x="482.19" y="0">f</tspan><tspan class="cls-5" x="545.22" y="0">río</tspan></text>
+  <g>
+    <polygon class="cls-2" points="70.4 166.17 93.94 151.66 93.94 124.74 105.07 117.97 115.82 124.28 115.82 151.96 139.66 166.17 139.66 178.8 128.68 184.07 105.03 171.36 79.87 184.07 70.4 178.73 70.4 166.17"/>
+    <polygon class="cls-2" points="27.86 103.03 52.16 116.23 75.52 102.83 86.92 109.12 86.8 121.59 62.79 135.36 62.33 163.11 51.37 169.4 41.34 162.49 40.59 135.65 17.05 120.16 16.97 109.28 27.86 103.03"/>
+    <polygon class="cls-2" points="182.31 101.71 158.01 114.9 134.66 101.5 123.25 107.79 123.38 120.26 147.38 134.03 147.85 161.78 158.81 168.07 168.84 161.16 169.58 134.33 193.12 118.83 193.21 107.96 182.31 101.71"/>
+    <polygon class="cls-2" points="70.4 27.73 93.94 42.25 93.94 69.17 105.07 75.94 115.82 69.62 115.82 41.95 139.66 27.73 139.66 15.1 128.68 9.84 105.03 22.54 79.87 9.84 70.4 15.17 70.4 27.73"/>
+    <polygon class="cls-2" points="27.86 93.53 52.16 80.33 75.52 93.73 86.92 87.44 86.8 74.97 62.79 61.2 62.33 33.45 51.37 27.16 41.34 34.07 40.59 60.91 17.05 76.4 16.97 87.28 27.86 93.53"/>
+    <polygon class="cls-2" points="182.31 93.53 158.01 80.33 134.66 93.73 123.25 87.44 123.38 74.97 147.38 61.2 147.85 33.45 158.81 27.16 168.84 34.07 169.58 60.91 193.12 76.4 193.21 87.28 182.31 93.53"/>
+    <circle class="cls-1" cx="105.03" cy="97.98" r="11.68"/>
+  </g>
+</svg>
