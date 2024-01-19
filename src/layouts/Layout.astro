@@ -35,4 +35,18 @@ const { description, title } = Astro.props;
 	h1 {
 		color: rgb(40, 69, 150);
 	}
+	h2 {
+		color: rgb(40, 69, 150);
+	}
+	#header-nav {
+		animation: headerAni linear both;
+		animation-timeline: scroll();
+		animation-range: 0 500px;
+	}
+	@keyframes headerAni {
+		to {
+			background-color: rgb(203 213 225);
+		}
+	}
+
 </style>
