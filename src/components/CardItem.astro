@@ -1,0 +1,14 @@
+---
+const { title, description, linkTo } = Astro.props
+---
+<div class="w-[400px] h-[330px] p-6 border border-gray-100 rounded-lg shadow-lg shadow-black/25 gap-2 flex flex-col hover:scale-105 transition-transform ease-linear">
+    <h3 class="text-balance font-extrabold text-blue-600 text-3xl">
+            {title}
+    </h3>
+    <p class="text-pretty">
+            {description}
+    </p>
+    <a href={linkTo} class="p-4 bg-blue-600 rounded-lg text-white font-semibold uppercase hover:bg-blue-700 transition-colors ease-linear mt-10 w-[110px]">
+            Ver más
+    </a>
+</div>   

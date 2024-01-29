@@ -1,42 +1,17 @@
+---
+import CardItem from "./CardItem.astro";
+---
+
 <section class="flex w-full max-w-[1300px] mx-auto justify-center h-screen" id="services">
-    <div class="mt-56 flex flex-col gap-6 items-center">
+    <div class="flex flex-col gap-6 items-center mt-28">
         <h2 class="text-5xl font-bold">
             Nuestros servicios
         </h2>
-        <div class="max-w-[1300px] w-auto flex gap-4">
-            <div class="w-[400px] h-[380px] p-6 border border-gray-100 rounded-lg shadow-lg shadow-black/25 gap-2 flex flex-col hover:scale-105 transition-transform ease-linear">
-                <h3 class="text-balance font-extrabold text-blue-600 text-3xl">
-                    Mantenimiento de Aire Acondicionado
-                </h3>
-                <p class="text-pretty">
-                    Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites.
-                </p>
-                <a href="" class="p-4 bg-blue-600 rounded-lg text-white font-semibold uppercase hover:bg-blue-700 transition-colors ease-linear mt-10 w-[110px]">
-                    Ver más
-                </a>
-            </div>
-            <div class="w-[400px] h-[380px] p-6 border border-gray-100 rounded-lg shadow-lg shadow-black/25 gap-2 flex flex-col hover:scale-105 transition-transform ease-linear">
-                <h3 class="text-balance font-extrabold text-blue-600 text-3xl">
-                    Mantenimiento de Aire Acondicionado
-                </h3>
-                <p class="text-pretty">
-                    Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites.
-                </p>
-                <a href="" class="p-4 bg-blue-600 rounded-lg text-white font-semibold uppercase hover:bg-blue-700 transition-colors ease-linear mt-10 w-[110px]">
-                    Ver más
-                </a>
-            </div>
-            <div class="w-[400px] h-[380px] p-6 border border-gray-100 rounded-lg shadow-lg shadow-black/25 gap-2 flex flex-col hover:scale-105 transition-transform ease-linear">
-                <h3 class="text-balance font-extrabold text-blue-600 text-3xl">
-                    Mantenimiento de Aire Acondicionado
-                </h3>
-                <p class="text-pretty">
-                    Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites.
-                </p>
-                <a href="" class="p-4 bg-blue-600 rounded-lg text-white font-semibold uppercase hover:bg-blue-700 transition-colors ease-linear mt-10 w-[110px]">
-                    Ver más
-                </a>
-            </div>
+        <div class="max-w-[1300px] w-auto grid grid-cols-2 grid-rows-2 gap-4">
+            <CardItem title="Mantenimiento de Aire Acondicionado" description="Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites." linkTo="#more" />
+            <CardItem title="Mantenimiento de Aire Acondicionado" description="Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites." linkTo="#more" />
+            <CardItem title="Mantenimiento de Aire Acondicionado" description="Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites." linkTo="#more" />
+            <CardItem title="Mantenimiento de Aire Acondicionado" description="Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites." linkTo="#more" />
         </div>
     </div>
 </section>
