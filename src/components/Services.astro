@@ -2,12 +2,12 @@
 import CardItem from "./CardItem.astro";
 ---
 
-<section class="flex w-full max-w-[1300px] mx-auto justify-center h-screen" id="services">
+<section class="flex w-full max-w-[1300px] mx-auto justify-center md:h-screen h-[1800px]" id="services">
     <div class="flex flex-col gap-6 items-center mt-28">
-        <h2 class="text-5xl font-bold">
+        <h2 class="text-5xl font-bold text-center">
             Nuestros servicios
         </h2>
-        <div class="max-w-[1300px] w-auto grid grid-cols-2 grid-rows-2 gap-4">
+        <div class="w-auto grid grid-cols md:grid-cols-2 md:grid-rows-2 gap-4">
             <CardItem title="Instalación doméstica" description="Ofrecemos instalaci" linkTo="#more" />
             <CardItem title="Instalación Industrial" description="Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites." linkTo="#more" />
             <CardItem title="Mantenimientos" description="Contamos con los mejores profesionales en el area. Realizamos mantenimiento preventivo y correctivo para los equipos que necesites." linkTo="#more" />
