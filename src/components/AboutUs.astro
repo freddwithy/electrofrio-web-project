@@ -2,22 +2,22 @@
 import ListItem from "./ListItem.astro";
 ---
 
-<section class="md:flex-row-reverse md:flex gap-6 w-full max-w-[1300px] mt-10 md:mt-0 mx-auto items-center" id="aboutus">
-    <div class="flex gap-4 flex-col max-w-[600px] items-center md:items-start">
+<section class="lg:flex-row-reverse justify-center lg:flex w-full lg:max-w-[1300px] mt-10 lg:mt-0 mx-auto items-center" id="aboutus">
+    <div class="flex gap-4 flex-col items-center lg:items-start md:mt-10">
         <span class="font-bold text-lg text-blue-700 md:text-left">
             SOBRE NOSOTROS
         </span>
-        <h2 class="font-bold text-3xl text-balance text-black text-center md:text-left">
+        <h2 class="font-bold text-3xl text-balance text-black text-center lg:text-left">
             Aire Acondicionado a Medida: Hogares e Industrias.
         </h2>
-        <h3 class="font-bold text-2xl text-balance text-gray-800 text-center md:text-left">
-            Expertos en climatización e instalaciones eléctricas domésticas e industriales.
+        <h3 class="font-bold text-2xl text-balance text-gray-800 text-center lg:text-left">
+            Expertos en climatización e instalaciones eléctricas domésticas e industriales.
         </h3>
-        <p class="md:max-w-[600px] w-[300px] md:w-full text-pretty text-sm md:text-md text-center md:text-left" > 
+        <p class="lg:max-w-[600px] w-[300px] lg:w-full text-pretty text-sm lg:text-md text-center lg:text-left" > 
             Somos una empresa familiar formada en 1986 en Ciudad del Este.
             Nuestra empresa se enorgullece de ofrecer soluciones integrales de climatización, instalaciones eléctricas, y proyectos diseñadas para satisfacer las necesidades tanto de hogares como de industrias.
         </p>
-        <div class="md:grid-cols-2 md:grid-rows-3 md:grid md:gap-2 mt-4 pt-4 md:pt-0 md:mt-0 border-t border-slate-300 md:border-none">
+        <div class="md:grid-cols-2 md:grid-rows-3 md:grid md:gap-2 mt-4 pt-4 md:pt-0 md:mt-0 border-t border-slate-300 md:border-none items-center">
             <ListItem desc="Instalaciones eléctricas." />
             <ListItem desc="Aire Acondicionado." />
             <ListItem desc="Proyectos." />
@@ -26,7 +26,7 @@ import ListItem from "./ListItem.astro";
             <ListItem desc="Chillers." />
         </div>
     </div>
-    <div class="hidden md:flex h-[800px] w-[600px] relative mr-4">
+    <div class="hidden xl:flex h-[800px] w-full relative">
         <img src="./imagen-intro1.webp" alt="aire" width="400px" height="400px" class="object-cover rounded-lg absolute top-[180px] left-4 shadow-lg shadow-slate-500 ">
         <div class="flex flex-col justify-center items-center absolute bottom-[260px] left-8 w-[150px]">
             <span class="font-bold text-lg text-balance uppercase">
