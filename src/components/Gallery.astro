@@ -5,19 +5,39 @@ import "photoswipe/style.css"
     <div class="my-10">
         <h2 class="md:text-4xl text-xl uppercase font-bold">Galería</h2>
     </div>
-    <div class="grid md:grid-cols-3 grid-cols-1 grid-rows-8 gap-6 md:grid-rows-3 max-w-[1300px] mx-auto" id="gallery">
-        {
-            Array.from({ length: 9 }).map((_, i) => (
-                <a  class="rounded-lg shadow-lg shadow-black/25 overflow-hidden hover:scale-105 transition-transform ease-linear w-[350px] md:w-full"
-                    href={`/gallery/img-dazzler/img-${i + 1}.jpg`}
-                    target="_blank"
-                >
-                    <img 
-                        src={`/gallery/img-dazzler/thumbs/img-${i + 1}.webp`} 
-                        alt="">
-                </a>
-            ))
-        }
+    <div class="grid gap-4 max-w-[1300px] mx-auto md:flex" id="gallery">
+        <div class="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-4 gap-4">
+            {
+                Array.from({ length: 4 }).map((_, i) => (
+                    <a  class="rounded-lg shadow-lg shadow-black/25 overflow-hidden hover:scale-105 transition-transform ease-linear w-[350px] md:w-full"
+                        href={`/gallery/img-dazzler/img-${i + 1}.jpg`}
+                        target="_blank"
+                        data-pswp-width="600"
+                        data-pswp-height="800"
+                    >
+                        <img 
+                            src={`/gallery/img-dazzler/thumbs/img-${i + 1}.webp`} 
+                            alt="">
+                    </a>
+                ))
+            }
+        </div>
+        <div class="flex flex-col gap-4">
+            {
+                Array.from({ length: 3 }).map((_, i) => (
+                    <a  class="rounded-lg shadow-lg shadow-black/25 overflow-hidden hover:scale-105 transition-transform ease-linear w-[350px] md:w-full"
+                        href={`/gallery/img-dazzler/img-h-${i + 1}.jpg`}
+                        target="_blank"
+                        data-pswp-width="800"
+                        data-pswp-height="600"
+                    >
+                        <img 
+                            src={`/gallery/img-dazzler/thumbs/img-h-${i + 1}.webp`} 
+                            alt="">
+                    </a>
+                ))
+            }
+        </div>
     </div>
 </section>
 
