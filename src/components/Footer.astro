@@ -1,20 +1,34 @@
 ---
-import Whatsapp from '../icons/Whatsapp.astro'
+import Instagram from "../icons/Instagram.astro";
+import MapPin from "../icons/MapPin.astro";
+import Whatsapp from "../icons/Whatsapp.astro";
 ---
 
-<footer class="w-full h-[76px] bg-slate-100 border-slate-400 border-t">
-    <div class="flex justify-between items-center p-6 text-black max-w-[1300px] mx-auto ">
-        <span>
-            © Copyright Electrofrio 2024 
-        </span>
-        <div class="">
-            <div class="flex gap-2">
-                <a href="
-                https://wa.link/e2l6qe" target="_blank">
-                    <Whatsapp />
-                </a>
-                <span>+595 994 151009</span>
-            </div>
+<section class="max-h-[260px] md:h-[150px] w-full mt-10 bg-slate-200">
+    <div class="md:max-w-[1300px] md:mx-auto flex flex-col md:flex-row items-center md:justify-between md:items-center gap-2 md:pt-4">
+        <div class="w-[200px] h-10 mt-4 md:mt-0">
+            <img src="./Logo.svg" alt="logo">
+        </div>
+        <div class="flex gap-6">
+            <a href="https://www.instagram.com/electrofrio.py/" class="p-2">
+                <Instagram width="25px" height="25px" color="rgb(37 99 235)"/>
+            </a>
+            <a href="https://wa.link/e2l6qe" class="p-2">
+                <Whatsapp width="25px" height="25px" color="rgb(37 99 235)"/>
+            </a>
         </div>
     </div>
-</footer>
+    <div class="md:flex md:flex-col items-center flex flex-col gap-2 w-full mt-4">
+        <div  class="md:max-w-[1300px] w-[300px] md:w-full flex flex-col md:flex-row md:gap-2 md:justify-start items-center border-t-2 border-slate-300 p-2">
+            <MapPin width="20" height="20" color="black"/>
+            <span class="text-xs md:text-sm text-center text-balance">
+                Km 12 Monday, a 1000mts de la Ruta N2 - Ciudad del Este - Paraguay
+            </span>
+        </div>
+        <div class="md:flex bg-blue-600 w-full flex justify-center md:items-center md:justify-center">
+            <span class="text-xs md:text-sm p-2 text-white">
+                © Copyright Electrofrío 2024
+            </span>
+        </div>
+    </div>    
+</section>
