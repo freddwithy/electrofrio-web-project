@@ -1,0 +1,34 @@
+---
+import "photoswipe/style.css"
+---
+<section class="flex items-center flex-col">
+    <div class="my-10">
+        <h2 class="md:text-4xl text-xl uppercase font-bold">Galería</h2>
+    </div>
+    <div class="grid md:grid-cols-3 grid-cols-1 grid-rows-8 gap-6 md:grid-rows-3 max-w-[1300px] mx-auto" id="gallery">
+        {
+            Array.from({ length: 9 }).map((_, i) => (
+                <a  class="rounded-lg shadow-lg shadow-black/25 overflow-hidden hover:scale-105 transition-transform ease-linear w-[350px] md:w-full"
+                    href={`/gallery/img-dazzler/img-${i + 1}.jpg`}
+                    target="_blank"
+                >
+                    <img 
+                        src={`/gallery/img-dazzler/thumbs/img-${i + 1}.webp`} 
+                        alt="">
+                </a>
+            ))
+        }
+    </div>
+</section>
+
+
+<script>
+    import PhotoSwipeLightbox from 'photoswipe/lightbox';
+
+    const lightbox = new PhotoSwipeLightbox({
+      gallery: '#gallery',
+      children: 'a',
+      pswpModule: () => import('photoswipe')
+    });
+    lightbox.init();
+</script>
