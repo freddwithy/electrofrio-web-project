@@ -1,0 +1,23 @@
+---
+import ContactForm from "../components/ContactForm.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout link={{ servicios: '/#services', contacto: '/contact', nosotros: '/#aboutus', galeria: '/#gallery'}}  title="Electrofrío - Contacto" description="Encontrá el mejor servicio para instalaciones de equipos de climatización y electricidad para hogares y empresas. Ofrecemos una gran gama de productos de climatización para cubrir sus necesidades.">
+    <section style="background-image: url(../../imagen-intro1.webp);" class="mt-[80px] h-screen">
+            <div class="flex w-full md:max-w-[600px] lg:max-w-[1300px] mx-auto animate-fade-up duration-7">
+                <div class="mt-52 flex flex-col gap-6 max-w-[700px] md:mx-auto lg:mx-0 bg-white rounded-lg p-6">
+                    <h1 class="text-balance text-6xl font-bold text-blue-700">
+                        Contactanos
+                    </h1>
+                    <p class="text-pretty text-xl max-w-[600px] font-semibold">
+                        Danos tus datos de contacto y nos comunicaremos en la brevedad posible.
+                    </p>
+                    <ContactForm /> 
+                </div>
+            </div>
+    </section>
+</Layout>  
+
+
+

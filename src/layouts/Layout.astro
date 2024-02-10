@@ -1,13 +1,21 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import '@fontsource-variable/montserrat';
 
 interface Props {
 	description: string;
 	title: string;
+	link: {
+		nosotros: string,
+		servicios: string,
+		galeria: string,
+		contacto: string
+	}
 }
 
-const { description, title } = Astro.props;
+const { description, title, link } = Astro.props;
+
 ---
 
 <!doctype html>
@@ -18,9 +26,10 @@ const { description, title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon-blanco.svg" />
 		<title>{title}</title>
+		<ViewTransitions />
 	</head>
 	<body>
-		<Header />
+		<Header link={link}/>
 		<slot />
 	</body>
 </html>
@@ -30,14 +39,7 @@ const { description, title } = Astro.props;
 	html {
 		font-family: 'Montserrat Variable',system-ui, sans-serif;
 		background-size: 224px;
-		background-color: white;
+		background-color:  white;
 		scroll-behavior: smooth;
 	}
-	h1 {
-		color: rgb(40, 69, 150);
-	}
-	h2 {
-		color: rgb(29 78 216);
-	}
-
 </style>

@@ -5,10 +5,10 @@ const { title, description, linkTo } = Astro.props
     <h3 class="text-balance font-extrabold text-blue-600 md:text-3xl text-2xl">
             {title}
     </h3>
-    <p class="text-pretty text-sm md:text-base">
+    <p class="text-pretty text-sm md:text-base   text-gray-600 font-semibold">
             {description}
     </p>
-    <a href={linkTo} class="p-4 bg-blue-600 rounded-lg text-white font-semibold uppercase hover:bg-blue-700 transition-colors ease-linear mt-10 md:w-[110px] w-auto">
+    <a href={linkTo} class="p-4 bg-blue-600 rounded-lg text-white font-semibold uppercase hover:bg-blue-700 transition-colors ease-linear md:w-[110px] w-auto">
             Ver más
     </a>
 </div>   
