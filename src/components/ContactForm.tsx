@@ -29,8 +29,7 @@ const DATO_CONSULTA = [
 
 const ContactForm = () => {
   return (
-    <div>
-      <form className="max-w-sm">
+      <form className="max-w-sm mt-2">
           {DATO_CONSULTA.map(({ title, typeIs, placheHolder }) => (
             <div className="mb-5">
               <label className="block mb-2 text-sm font-medium text-gray-900">{title}</label>
@@ -42,7 +41,6 @@ const ContactForm = () => {
           ))}
         <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Mandar</button>
       </form>
-    </div>
   )
 }
 

@@ -4,13 +4,13 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout link={{ servicios: '/#services', contacto: '/contact', nosotros: '/#aboutus', galeria: '/#gallery'}}  title="Electrofrío - Contacto" description="Encontrá el mejor servicio para instalaciones de equipos de climatización y electricidad para hogares y empresas. Ofrecemos una gran gama de productos de climatización para cubrir sus necesidades.">
-    <section class="mt-[80px] h-screen">
+    <section class="mt-[80px] h-screen" style="background-image: url(/imagen-intro3.webp)">
             <div class="flex w-full mt-[117px] md:mt-0 md:items-center md:max-w-[600px] lg:max-w-[1300px] mx-auto animate-fade-up duration-7 h-screen">
-                <div class="h-screen md:h-auto flex flex-col gap-4 max-w-[700px] md:mx-auto lg:mx-0 bg-white rounded-lg p-6 md:p-0">
-                    <h1 class="text-balance text-6xl font-bold text-blue-700">
+                <div class="h-screen md:h-auto flex flex-col  gap-2 md:gap-4 max-w-[700px] md:mx-auto lg:mx-0 bg-white rounded-lg p-6 md:p-0">
+                    <h1 class="text-balance text-4xl md:text-6xl font-bold text-blue-700">
                         Contactanos
                     </h1>
-                    <p class="text-pretty text-xl max-w-[600px] font-semibold text-gray-800">
+                    <p class="text-pretty text-md md:text-xl max-w-[600px] font-medium text-gray-800">
                         Danos tus datos de contacto y nos comunicaremos en la brevedad posible.
                     </p>
                     <ContactForm />
